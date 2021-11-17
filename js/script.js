@@ -32,4 +32,4 @@ jQuery(function($) {
 	adjustNav();
 });
 
-/*Contact Form*/
+/*Home Carousel*/
