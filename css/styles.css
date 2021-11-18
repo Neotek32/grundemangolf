@@ -26,6 +26,7 @@ p {
     font-size: 5rem;
     color: #4c8d61;
 }
+
 /*Navbar CSS*/
 #navUrl {
     font-family: 'Alegreya Sans SC';
@@ -588,9 +589,9 @@ p {
 }
 
 .testimonial {
+    background: url("../images/testimonial-bg-image3.jpg");
     min-height: 375px;
     position: relative;
-    background: url("../images/testimonial-bg-image3.jpg");
     padding-top: 50px;
     padding-bottom: 50px;
     background-position: center;
@@ -769,77 +770,79 @@ p {
 
 /* Home Carousel */
 #carousel .carousel-item.boat {
-background-image: url("../images/CG+Studio+7.jpg");
+    background-image: url("../images/CG+Studio+7.jpg");
 }
 
 #carousel .carousel-item.sea {
-background-image: url("../images/IMG_4092.JPG");
+    background-image: url("../images/IMG_4092.JPG");
 }
 
 #carousel .carousel-item.river {
-background-image: url("../images/CG+Studio+7.jpg");
+    background-image: url("../images/CG+Studio+7.jpg");
 }
 
 #carousel .carousel-item {
-height: 100vh;
-width: 100%;
-min-height: 350px;
-background: no-repeat center center scroll;
-background-size: cover;
+    height: 100vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
 }
 
 #carousel .carousel-inner .carousel-item {
-transition: -webkit-transform 2s ease;
-transition: transform 2s ease;
-transition: transform 2s ease, -webkit-transform 2s ease;
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
 }
 
 #carousel .carousel-item .caption {
-background-color: rgba(0, 0, 0, 0.5);
-padding: 40px;
-color: white;
-animation-duration: 1s;
-animation-delay: 2s;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    color: white;
+    animation-duration: 1s;
+    animation-delay: 2s;
 }
 
 #carousel .caption h2 {
-animation-duration: 1s;
-animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 2s;
 }
 
 #carousel .caption p {
-animation-duration: 1s;
-animation-delay: 2.2s;
+    animation-duration: 1s;
+    animation-delay: 2.2s;
 }
 
 #carousel .caption a {
-animation-duration: 1s;
-animation-delay: 2.4s;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
 }
 
 /* Button */
 .delicious-btn {
-display: inline-block;
-min-width: 160px;
-height: 60px;
-color: #ffffff;
-border: none;
-border-left: 3px solid #1c8314;
-border-radius: 0;
-padding: 0 30px;
-font-size: 16px;
-line-height: 58px;
-font-weight: 600;
--webkit-transition-duration: 500ms;
-transition-duration: 500ms;
-text-transform: capitalize;
-background-color: #4c8d61;
+    display: inline-block;
+    min-width: 160px;
+    height: 60px;
+    color: #ffffff;
+    border: none;
+    border-left: 3px solid #1c8314;
+    border-radius: 0;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 58px;
+    font-weight: 600;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-transform: capitalize;
+    background-color: #4c8d61;
 }
 
 .delicious-btn.active, .delicious-btn:hover, .delicious-btn:focus {
-font-size: 16px;
-font-weight: 600;
-color: #4c8261;
-background-color: #ffffff;
-border-color: #4c8261;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4c8261;
+    background-color: #ffffff;
+    border-color: #4c8261;
 }
+
+/*Pricing Cards*/
