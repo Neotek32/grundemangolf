@@ -20,6 +20,13 @@ p {
     font-size: 1.6rem;
     line-height: 1.6;
 }
+hr {
+    width: 30%;
+    text-align: center;
+    height: 2px;
+    background-color: #036661;
+    margin-top: 20px;
+}
 #aboutText {
     text-align: center;
     margin-top: 55px;
