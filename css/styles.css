@@ -36,7 +36,7 @@ hr {
     margin-left: 50px;
 }
 
-#singleLessons, #lessonPackages, #howItWorks {
+.lessonHeaders {
     text-align: center;
     margin-top: 50px;
     font-size: 5rem;
@@ -243,7 +243,7 @@ hr {
     background-color: #c0ca33;
 }
 .content {
-    padding: 120px 0;
+    padding: 75px 0;
 }
 @media screen and (max-width: 768px) {
     .navbar-brand {
@@ -589,8 +589,6 @@ hr {
     }
 }
 
-/*Lesson Cards CSS*/
-
 /*Testimonial CSS*/
 .testimonial:after {
     position: absolute;
@@ -624,7 +622,6 @@ hr {
 #testimonial4 .carousel-inner .item{
     overflow: hidden;
 }
-
 .testimonial4_indicators .carousel-indicators{
     left: 0;
     margin: 0;
@@ -731,7 +728,6 @@ hr {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-
 .testimonial4_slide{
     top: 0;
     left: 0;
