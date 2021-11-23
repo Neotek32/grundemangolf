@@ -1,0 +1,48 @@
+#carousel .carousel-item.boat {
+    background-image: url("../images/CG+Studio+7.jpg");
+}
+
+#carousel .carousel-item.sea {
+    background-image: url("../images/IMG_4092.JPG");
+}
+
+#carousel .carousel-item.river {
+    background-image: url("../images/CG+Studio+7.jpg");
+}
+
+#carousel .carousel-item {
+    height: 100vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+#carousel .carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+}
+
+#carousel .carousel-item .caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    color: white;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+#carousel .caption h2 {
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+#carousel .caption p {
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+}
+
+#carousel .caption a {
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+}
