@@ -1,4 +1,4 @@
-.testimonial:after {
+/*.testimonial:after {
     position: absolute;
     top: -0 !important;
     left: 0;
@@ -8,10 +8,10 @@
     height: 100px;
     float: left;
     z-index: 99;
-}
+}*/
 
 .testimonial {
-    background: url("../images/testimonial-bg-image3.jpg");
+    background: url("../images/testimonial-bg-image4.jpg");
     min-height: 375px;
     position: relative;
     padding-top: 50px;
@@ -165,7 +165,7 @@
     -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
     -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
     -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
-}
+} 
 .testimonial4_slide p {
     color: #ffffff;
     text-shadow: 2px 2px #000;
