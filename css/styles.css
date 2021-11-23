@@ -4,7 +4,7 @@ h1, h2 {
     color: white;
 }
 html {
-    font-size: 62.5%;
+    font-size: 65%;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -34,8 +34,8 @@ hr {
 }
 /*Navbar CSS*/
 #navUrl {
-    font-family: 'Alegreya Sans SC';
-    font-size: 2.0rem;
+    font-family: 'Open Sans';
+    font-size: 1.6rem;
 }
 .button {
     display: inline-block;
